@@ -34,8 +34,7 @@ h1{
 }
 .section2{
     text-align: center;
-    
-}
+}     
 .donate{
     display:-webkit-inline-flex;
     margin-bottom: 20px;
@@ -51,12 +50,7 @@ h1{
     font-size: 20px;
     height: 70px;
     width: 90px;
-    text-decoration: none;
-
-    
-
-    
-    
+    text-decoration: none;   
 }
 hr{
     width: 75%;
@@ -74,22 +68,38 @@ form{
     margin-bottom: 20px;
     margin-top: 0%;
 }
-
-.box1{
-    width: 7%;
-    width: 300px;margin-bottom: 20px;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    
-    display:flex;
+#card1{
+    width: 250px;
+    margin-bottom: 20px;
     height: 280px;
     border: 1px solid gray;
     text-align: center;
     box-shadow: 8px 8px 18px gray;
     padding-right: 10px;
     border-radius: 10px;
-    background-color: purple;
+    background-color: purple;   
+}
+#card2{
+    width: 250px;
+    margin-bottom: 20px;
+    height: 280px;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 8px 8px 18px gray;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: blueviolet;   
+}
+#card3{
+    width: 250px;
+    margin-bottom: 20px;
+    height: 280px;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 8px 8px 18px gray;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: burlywood   
 }
 .link-button{
     text-decoration: none;
@@ -119,3 +129,8 @@ form{
     margin-right: 10%;
     margin-left: 10%;
 } 
+.section4{
+    display:inline-flex;
+    justify-content: center;
+    
+}
