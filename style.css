@@ -71,7 +71,7 @@ form{
 #card1{
     width: 250px;
     margin-bottom: 20px;
-    height: 280px;
+    height: 350px;
     border: 1px solid gray;
     text-align: center;
     box-shadow: 8px 8px 18px gray;
@@ -82,7 +82,7 @@ form{
 #card2{
     width: 250px;
     margin-bottom: 20px;
-    height: 280px;
+    height: 350px;
     border: 1px solid gray;
     text-align: center;
     box-shadow: 8px 8px 18px gray;
@@ -91,15 +91,16 @@ form{
     background-color: blueviolet;   
 }
 #card3{
-    width: 250px;
+    width: 200px;
     margin-bottom: 20px;
-    height: 280px;
+    height: 350px;
     border: 1px solid gray;
     text-align: center;
     box-shadow: 8px 8px 18px gray;
     padding-right: 10px;
     border-radius: 10px;
-    background-color: burlywood   
+    background-color: burlywood  
+    
 }
 .link-button{
     text-decoration: none;
@@ -128,9 +129,25 @@ form{
     text-align: center;
     margin-right: 10%;
     margin-left: 10%;
-} 
-.section4{
-    display:inline-flex;
-    justify-content: center;
-    
 }
+.box{
+    display: inline-flex;
+    margin-right: 15%;
+    margin-left: 15%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;   
+}  
+.container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.banner{
+    width: 50%;
+    padding-left: 2%;
+}
+.banner img{
+    width: 100%;
+}
+
+
