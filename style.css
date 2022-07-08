@@ -74,9 +74,9 @@ form{
     height: 350px;
     border: 1px solid gray;
     text-align: center;
-    box-shadow: 8px 8px 18px gray;
+    
     padding-right: 10px;
-    border-radius: 10px;
+    
     background-color: purple;   
 }
 #card2{
@@ -85,9 +85,9 @@ form{
     height: 350px;
     border: 1px solid gray;
     text-align: center;
-    box-shadow: 8px 8px 18px gray;
+   
     padding-right: 10px;
-    border-radius: 10px;
+    
     background-color: blueviolet;   
 }
 #card3{
@@ -96,9 +96,9 @@ form{
     height: 350px;
     border: 1px solid gray;
     text-align: center;
-    box-shadow: 8px 8px 18px gray;
+   
     padding-right: 10px;
-    border-radius: 10px;
+    
     background-color: burlywood  
     
 }
@@ -156,10 +156,13 @@ form{
 }
 .the{
     text-decoration: none;
-    background-image: linear-gradient(red,green );
-    padding: 10px 20px;
+    background-color: red;
+    padding: 10px 20px; 
     color: white;
-    font-weight: 500;   
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+
 }
 .container{
     display: flex;
@@ -172,7 +175,7 @@ form{
     margin-top: 150px;
     margin-right:20% ;
     margin-left:20% ;
-    
+
 }
 .can{
     margin:1%;  
@@ -215,4 +218,6 @@ form{
     font-weight: bold;
     color: orangered;
 }
-
+.top{
+    margin-top: 5%;
+}
